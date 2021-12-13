@@ -1,9 +1,11 @@
+/* Boşlukları sıfırlayıp font eklendi */
 body {
 	margin: 0;
 	padding: 0;
 	font-family: 'Nunito', sans-serif;
 }
 
+/* Projedeki tüm linklerin alt çizgisi kaldırılıp renkleri sıfırlandı */
 a {
 	text-decoration: none;
 	color: inherit;
