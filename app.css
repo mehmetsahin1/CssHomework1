@@ -1,0 +1,103 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Nunito', sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.navbar {
+	background-color: #811bf8;
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 30px;
+}
+
+.menu {
+	display: flex;
+}
+
+.navbar-item {
+	margin-right: 10px;
+	font-weight: 600;
+	font-size: 18px;
+	color: #fff;
+}
+
+.navbar-item:hover {
+	color: wheat;
+}
+
+.navbar .upload {
+	padding: 4px 15px;
+	border-radius: 5px;
+	border-color: transparent;
+	color: #811bf8;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+.navbar .upload:hover {
+	background-color: rgb(192, 191, 191);
+}
+
+.content {
+	padding: 30px;
+}
+
+.page-title {
+	font-weight: 700;
+	font-size: 22px;
+}
+
+.container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.card {
+	width: 20vw;
+	margin-bottom: 30px;
+	margin-top: 10px;
+}
+
+.card .image {
+	height: 150px;
+}
+
+.image img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+.card .title {
+	font-size: 17px;
+	font-weight: 600;
+	margin-top: 10px;
+}
+
+.card .title a:hover {
+	font-weight: 700;
+}
+
+.single-video-content {
+	display: flex;
+	justify-content: space-between;
+}
+
+.featured-container {
+	margin-right: 50px;
+}
+
+.featured-container h3 {
+	margin-top: 0;
+}
+
+video {
+	height: 26vh;
+	width: 50vw;
+}
